@@ -1,0 +1,29 @@
+================================================================================
+                           MODEL PERFORMANCE METRICS
+================================================================================
+
+Confusion Matrices:
+
+LogisticRegression:
+  True Positives: 456
+  False Positives: 0
+  True Negatives: 500
+  False Negatives: 44
+
+DecisionTree:
+  True Positives: 479
+  False Positives: 0
+  True Negatives: 500
+  False Negatives: 21
+
+LinearSVM:
+  True Positives: 491
+  False Positives: 0
+  True Negatives: 500
+  False Negatives: 9
+
+Model                Accuracy   Precision  Recall     F1         Avg Runtime  Total Runtime
+LogisticRegression   0.9560     1.0000     0.9120     0.9540     0.000208     0.207957
+DecisionTree         0.9790     1.0000     0.9580     0.9785     0.000290     0.289775
+LinearSVM            0.9910     1.0000     0.9820     0.9909     0.000205     0.204952
+================================================================================
